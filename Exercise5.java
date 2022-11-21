@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class Exercise5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int userInput; int firstNum=0,secondNum=1,fiboNum=0; //הגדרת משתנים והתחלת הסדרה
+        int userInput; int firstNum=0,secondNum=1,fiboNum=0; 
 
         System.out.println("Enter the number you want to check");
         userInput = scanner.nextInt();
-        while (fiboNum<userInput) { //המשך הסדרה והדפסתה
+        while (fiboNum<userInput) {  
             fiboNum = firstNum + secondNum;
             firstNum=secondNum;
             secondNum=fiboNum;
