@@ -11,7 +11,7 @@ public class Exercise3 {
         } while (userInput < 3 || userInput % 2 == 0);
         for (rows = 0; rows <= userInput / 2 + 1; rows++)
         {
-            for (spacing=userInput/2-rows;spacing>=0;spacing--) { //זהבבבבבבב זהבבבבבב
+            for (spacing=userInput/2-rows;spacing>=0;spacing--) { 
                 System.out.print(" ");
             }
             for (amount = 1; amount <= rows; amount++) {
@@ -21,7 +21,7 @@ public class Exercise3 {
             System.out.println();
         }
         for (rows = userInput / 2; rows >= 0; rows--){
-            for (spacing=userInput/2-rows;spacing>=0;spacing--) { //זהבבבבבבבבבב
+            for (spacing=userInput/2-rows;spacing>=0;spacing--) { 
                 System.out.print(" ");
             }
 
